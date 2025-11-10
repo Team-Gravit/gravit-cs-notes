@@ -6,7 +6,7 @@
 
 ### 1. 힙의 종류
 
-![image1.png](image1.png)
+<img src="image1.png" width="50%">
 
 **최대 힙(Max Heap)**
 
@@ -42,7 +42,7 @@
 
 새로운 요소를 힙의 **마지막 위치**에 삽입한 뒤, **부모 노드와 비교**하며 힙 속성을 만족할 때까지 **위로 이동**시킨다.
 
-![image2.png](image2.png)
+<img src="image2.png" width="75%">
 
 <br>
 
@@ -56,7 +56,7 @@
 
 <br>
 
-![image3.png](image3.png)
+<img src="image3.png" width="75%">
 
 <br>
 
