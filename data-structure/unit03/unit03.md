@@ -6,7 +6,7 @@
 
 **큐**(Queue)는 한쪽에서 삽입하고 반대쪽에서 삭제하는 **FIFO**(First In First Out) 구조의 자료구조. 가장 먼저 들어온 데이터가 가장 먼저 나온다.
 
-![image.png](image.png)
+<img src="image.png" width="50%">
 
 <br>
 
