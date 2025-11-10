@@ -35,13 +35,13 @@ BF = 왼쪽 서브트리 높이 - 오른쪽 서브트리 높이
 
 **LL(Left Left) 케이스와 RR(Right Right) 케이스**
 
-![image1.png](image1.png)
+<img src="image1.png" width="75%">
 
 <br>
 
 **LR(Left Right) 케이스와 RL(Right Left) 케이스**
 
-![image2.png](image2.png)
+<img src="image2.png" width="75%">
 
 <br>
 
@@ -49,7 +49,7 @@ BF = 왼쪽 서브트리 높이 - 오른쪽 서브트리 높이
 
 Red-Black 트리는 각 노드가 Red 또는 Black 색상을 가지며, 색상 규칙을 통해 균형을 유지하는 균형 이진 탐색 트리다.
 
-![image3.png](image3.png)
+<img src="image3.png" width="50%">
 
 <br>
 
