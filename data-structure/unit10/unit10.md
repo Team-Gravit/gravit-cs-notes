@@ -21,7 +21,7 @@
 
 간선에 방향이 없음 — (A,B)와 (B,A)는 동일.
 
-![image1.png](image1.png)
+<img src="image1.png" width="100%">
 
 <br>
 
@@ -29,7 +29,7 @@
 
 간선에 방향이 존재 — ⟨A,B⟩와 ⟨B,A⟩는 다름.
 
-![image2.png](image2.png)
+<img src="image2.png" width="100%">
 
 <br>
 
@@ -37,7 +37,7 @@
 
 간선에 **비용**/**거리**/**시간** 등 값이 부여된 그래프.
 
-![image3.png](image3.png)
+<img src="image3.png" width="100%">
 
 <br>
 
@@ -45,7 +45,7 @@
 
 **연결 그래프**는 **모든 정점상에 경로가 존재**하지만, **비연결 그래프**는 **일부 정점이 고립**되어 있다.
 
-![image4.png](image4.png)
+<img src="image4.png" width="100%">
 
 <br>
 
@@ -53,7 +53,7 @@
 
 **비순환 그래프**는 순환이 존재하지 않는 그래프를 의미하며, **유향 비순환 그래프**(DAG)는 **방향성이 있으면서 순환이 없는 그래프**를 의미한다.
 
-![image5.png](image5.png)
+<img src="image5.png" width="100%">
 
 <br>
 
@@ -61,7 +61,7 @@
 
 **완전 그래프**는 **모든 정점쌍이 연결**되어 있는 그래프를 의미하며, **이분 그래프**는 정점이 두 그룹으로 나뉘고 **각 그룹 내에 간선이 존재하지 않는 그래프**를 의미한다.
 
-![image6.png](image6.png)
+<img src="image6.png" width="100%">
 
 <br>
 
@@ -73,9 +73,9 @@
 - **단점**: 두 정점의 연결 여부는 해당 정점의 인접 리스트를 순회해야 한다.
 - 공간 복잡도: O(V+E)O(V+E)O(V+E)
 
-![image7.png](image7.png)
+<img src="image7.png" width="100%">
 
-![image8.png](image8.png)
+<img src="image8.png" width="100%">
 
 
 <br>
@@ -87,9 +87,9 @@
 - **단점**: 어떤 정점에 인접한 정점들을 찾을 때는 모든 정점을 순회해야 한다.
 - 공간 복잡도: O(∣V∣2)O(|V|^2)O(∣V∣2)
 
-![image9.png](image9.png)
+<img src="image9.png" width="100%">
 
-![image10.png](image10.png)
+<img src="image10.png" width="100%">
 
 <br>
 

@@ -41,7 +41,7 @@
 
 배열을 절반씩 나누어 크기가 1이 될 때까지 분할한다.
 
-![image1.png](image1.png)
+<img src="image1.png" width="100%">
 
 <br>
 
@@ -49,7 +49,7 @@
 
 크기 1인 정렬된 배열들을 합병하여 크기 2인 정렬된 배열로 만든다.
 
-![image2.png](image2.png)
+<img src="image2.png" width="100%">
 
 <br>
 
@@ -57,7 +57,7 @@
 
 크기 2인 정렬된 배열들을 합병하여 크기 4인 정렬된 배열로 만든다.
 
-![image3.png](image3.png)
+<img src="image3.png" width="100%">
 
 <br>
 
@@ -65,7 +65,7 @@
 
 크기 4인 정렬된 배열들을 합병하여 최종 정렬된 배열을 완성한다.
 
-![image4.png](image4.png)
+<img src="image4.png" width="100%">
 
 <br>
 

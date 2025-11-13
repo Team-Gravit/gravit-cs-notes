@@ -30,7 +30,7 @@
 - 모든 레벨이 노드로 꽉 찬 트리
 - 높이가 h일 때, **2ʰ - 1**개의 노드를 가짐
 
-![image01.png](image01.png)
+<img src="image01.png" width="100%">
 
 <br>
 
@@ -39,7 +39,7 @@
 - 마지막 레벨 제외 모든 레벨이 노드로 꽉 찬 트리
 - 마지막 레벨은 **왼쪽**부터 순서대로 채워짐
 
-![image02.png](image02.png)
+<img src="image02.png" width="100%">
 
 <br>
 
@@ -65,7 +65,7 @@
 
 - 루트부터 시작하여 찾는 값이 현재 노드보다 **작으면 왼쪽**, **크면 오른쪽**으로 이동하며 탐색
 
-![image03.png](image03.png)
+<img src="image03.png" width="100%">
 
 <br>
 

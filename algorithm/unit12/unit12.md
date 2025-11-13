@@ -36,7 +36,7 @@
 
 <br>
 
-![image1.png](image1.png)
+<img src="image1.png" width="100%">
 
 <br>
 
@@ -48,7 +48,7 @@
 
 ### 4. 동작 예시
 
-![image2.png](image2.png)
+<img src="image2.png" width="100%">
 
 <br>
 
@@ -250,7 +250,7 @@ def has_cycle(graph, n):
 
 **장점**
 
-- **선형 시간 복잡도 O(V + E)**로 효율적
+- **선형 시간 복잡도** O(V + E)로 효율적
 - **의존성 해결**: 선후 관계가 있는 작업 순서 결정
 - **사이클 탐지** 가능
 
