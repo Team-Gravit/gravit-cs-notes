@@ -11,9 +11,7 @@
 - **사이클 존재 여부**에 따라 **순환 그래프**(Cyclic)와 **비순환 그래프**(Acyclic)로 구분된다.
 - 탐색은 주로 **DFS(깊이 우선 탐색)** 과 **BFS(너비 우선 탐색)** 으로 수행된다.
 
-
 <br>
-
 
 ### 2. 그래프의 종류
 
@@ -21,7 +19,7 @@
 
 간선에 방향이 없음 — (A,B)와 (B,A)는 동일.
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image1.png" width="100%">
 
 <br>
 
@@ -29,7 +27,7 @@
 
 간선에 방향이 존재 — ⟨A,B⟩와 ⟨B,A⟩는 다름.
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image2.png" width="100%">
 
 <br>
 
@@ -37,7 +35,7 @@
 
 간선에 **비용**/**거리**/**시간** 등 값이 부여된 그래프.
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image3.png" width="100%">
 
 <br>
 
@@ -45,7 +43,7 @@
 
 **연결 그래프**는 **모든 정점상에 경로가 존재**하지만, **비연결 그래프**는 **일부 정점이 고립**되어 있다.
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image4.png" width="100%">
 
 <br>
 
@@ -53,7 +51,7 @@
 
 **비순환 그래프**는 순환이 존재하지 않는 그래프를 의미하며, **유향 비순환 그래프**(DAG)는 **방향성이 있으면서 순환이 없는 그래프**를 의미한다.
 
-<img src="image5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image5.png" width="100%">
 
 <br>
 
@@ -61,11 +59,11 @@
 
 **완전 그래프**는 **모든 정점쌍이 연결**되어 있는 그래프를 의미하며, **이분 그래프**는 정점이 두 그룹으로 나뉘고 **각 그룹 내에 간선이 존재하지 않는 그래프**를 의미한다.
 
-<img src="image6.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image6.png" width="100%">
 
 <br>
 
-### 3-1.  구현 방법, 인접리스트
+### 3-1. 구현 방법, 인접리스트
 
 - 각 정점은 배열로 저장하고 인접한 정점은 연결 리스트로 관리한다.
 - 가중치 그래프라면 필드를 하나 추가한다.
@@ -73,10 +71,9 @@
 - **단점**: 두 정점의 연결 여부는 해당 정점의 인접 리스트를 순회해야 한다.
 - 공간 복잡도: O(V+E)O(V+E)O(V+E)
 
-<img src="image7.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image7.png" width="100%">
 
-<img src="image8.png" width="100%">
-
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image8.png" width="100%">
 
 <br>
 
@@ -87,9 +84,9 @@
 - **단점**: 어떤 정점에 인접한 정점들을 찾을 때는 모든 정점을 순회해야 한다.
 - 공간 복잡도: O(∣V∣2)O(|V|^2)O(∣V∣2)
 
-<img src="image9.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image9.png" width="100%">
 
-<img src="image10.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit10/image10.png" width="100%">
 
 <br>
 
@@ -112,8 +109,8 @@
 - **오일러 경로**: **모든 간선을 정확히 한 번씩** 지나는 경로
 - **오일러 회로**: 시작점으로 돌아오는 오일러 경로
 - **무향 조건 요약**:
-    - 회로 존재: 간선이 있는 정점들로 이뤄진 부분이 연결되어 있고, **모든 정점 차수가 짝수이다.**
-    - 경로(비회로) 존재: 연결되어 있고, **차수 홀수 정점이 정확히 2개이다.**
+  - 회로 존재: 간선이 있는 정점들로 이뤄진 부분이 연결되어 있고, **모든 정점 차수가 짝수이다.**
+  - 경로(비회로) 존재: 연결되어 있고, **차수 홀수 정점이 정확히 2개이다.**
 
 <br>
 

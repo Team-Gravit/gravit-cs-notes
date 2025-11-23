@@ -29,19 +29,19 @@ BF = 왼쪽 서브트리 높이 - 오른쪽 서브트리 높이
 
 **균형 유지 방법**
 
-삽입/삭제 시 **BF**가 -1, 0, 1을 벗어나면 각 케이스에 맞춰 **회전**(Rotation)을 수행하여 균형을 맞춘다. 
+삽입/삭제 시 **BF**가 -1, 0, 1을 벗어나면 각 케이스에 맞춰 **회전**(Rotation)을 수행하여 균형을 맞춘다.
 
 <br>
 
 **LL(Left Left) 케이스와 RR(Right Right) 케이스**
 
-<img src="image1.png" width="75%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit08/image1.png" width="75%">
 
 <br>
 
 **LR(Left Right) 케이스와 RL(Right Left) 케이스**
 
-<img src="image2.png" width="75%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit08/image2.png" width="75%">
 
 <br>
 
@@ -49,7 +49,7 @@ BF = 왼쪽 서브트리 높이 - 오른쪽 서브트리 높이
 
 Red-Black 트리는 각 노드가 Red 또는 Black 색상을 가지며, 색상 규칙을 통해 균형을 유지하는 균형 이진 탐색 트리다.
 
-<img src="image3.png" width="50%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit08/image3.png" width="50%">
 
 <br>
 
@@ -72,9 +72,9 @@ Red-Black 트리는 각 노드가 Red 또는 Black 색상을 가지며, 색상 �
 
 ### 3. AVL 트리 vs Red-Black 트리
 
-|  | **AVL 트리** | **Red-Black 트리** |
-| --- | --- | --- |
-| **균형 조건** | 서브트리 높이 차이 | 색상 |
-| **균형 엄격도** | 엄격함 | 느슨함 |
-| **탐색 성능** | 더 빠름 | 더 느림 |
-| **삽입/삭제 성능** | 더 느림 | 더 빠름 |
+|                    | **AVL 트리**       | **Red-Black 트리** |
+| ------------------ | ------------------ | ------------------ |
+| **균형 조건**      | 서브트리 높이 차이 | 색상               |
+| **균형 엄격도**    | 엄격함             | 느슨함             |
+| **탐색 성능**      | 더 빠름            | 더 느림            |
+| **삽입/삭제 성능** | 더 느림            | 더 빠름            |

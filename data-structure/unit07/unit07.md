@@ -2,7 +2,7 @@
 
 **문자열**을 트리 형태로 저장하여 **효율적으로 탐색**하는 자료구조. **접두사 트리**(Prefix Tree) 또는 **검색 트리**(Retrieval Tree)라고도 하며, 자동완성이나 사전 검색 등 문자열 탐색에 특화되어 있다.
 
-<img src="image1.png" width="50%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit07/image1.png" width="50%">
 
 <br>
 
@@ -16,9 +16,9 @@
 
 ### 2. 트라이의 삽입
 
-아래 예시에서 “**cate**”를 삽입한다고 가정해보자. **c → a → t** 까지는 기존 경로를 따라 이동한 뒤, **t 노드**에서 새로운 **자식 노드 e를 생성**하고 **종료 플래그를 true로 설정**한다. 
+아래 예시에서 “**cate**”를 삽입한다고 가정해보자. **c → a → t** 까지는 기존 경로를 따라 이동한 뒤, **t 노드**에서 새로운 **자식 노드 e를 생성**하고 **종료 플래그를 true로 설정**한다.
 
-<img src="image2.png" width="50%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit07/image2.png" width="50%">
 
 <br>
 

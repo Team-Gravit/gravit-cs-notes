@@ -6,7 +6,7 @@
 
 ### 1. 힙의 종류
 
-<img src="image1.png" width="50%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit06/image1.png" width="50%">
 
 **최대 힙(Max Heap)**
 
@@ -30,7 +30,7 @@
 
 ### 3. 힙의 배열 표현
 
-힙을 배열로 구현하는 경우, 부모와 자식 노드 간의 인덱스 관계는 다음과 같다. 
+힙을 배열로 구현하는 경우, 부모와 자식 노드 간의 인덱스 관계는 다음과 같다.
 
 - **왼쪽 자식 인덱스 = 부모 인덱스 X 2**
 - **오른쪽 자식 인덱스 = ( 부모 인덱스 X 2 ) + 1**
@@ -42,13 +42,13 @@
 
 새로운 요소를 힙의 **마지막 위치**에 삽입한 뒤, **부모 노드와 비교**하며 힙 속성을 만족할 때까지 **위로 이동**시킨다.
 
-<img src="image2.png" width="75%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit06/image2.png" width="75%">
 
 <br>
 
 ### 5. 힙의 삭제 과정
 
-**루트 노드**를 삭제한 뒤 **마지막 노드를 루트 위치로 이동**시킨다. 그 다음 자식 노드와 비교하며 힙 속성을 만족할 때까지 **아래로 이동**시킨다. 
+**루트 노드**를 삭제한 뒤 **마지막 노드를 루트 위치로 이동**시킨다. 그 다음 자식 노드와 비교하며 힙 속성을 만족할 때까지 **아래로 이동**시킨다.
 
 <br>
 
@@ -56,7 +56,7 @@
 
 <br>
 
-<img src="image3.png" width="75%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit06/image3.png" width="75%">
 
 <br>
 

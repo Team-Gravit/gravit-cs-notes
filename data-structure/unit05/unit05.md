@@ -30,7 +30,7 @@
 - 모든 레벨이 노드로 꽉 찬 트리
 - 높이가 h일 때, **2ʰ - 1**개의 노드를 가짐
 
-<img src="image01.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit05/image01.png" width="100%">
 
 <br>
 
@@ -39,7 +39,7 @@
 - 마지막 레벨 제외 모든 레벨이 노드로 꽉 찬 트리
 - 마지막 레벨은 **왼쪽**부터 순서대로 채워짐
 
-<img src="image02.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit05/image02.png" width="100%">
 
 <br>
 
@@ -65,7 +65,7 @@
 
 - 루트부터 시작하여 찾는 값이 현재 노드보다 **작으면 왼쪽**, **크면 오른쪽**으로 이동하며 탐색
 
-<img src="image03.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/data-structure/unit05/image03.png" width="100%">
 
 <br>
 
@@ -79,7 +79,7 @@
 
 **case1: 자식이 없는 리프 노드를 삭제하는 경우**
 
-→ 해당 노드만 삭제 
+→ 해당 노드만 삭제
 
 <br>
 
