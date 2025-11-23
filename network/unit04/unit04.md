@@ -10,13 +10,13 @@
 
 ### 1. 계층별 데이터 단위
 
-| 계층 | 데이터 단위 | 설명 |
-| --- | --- | --- |
-| **응용 계층**(Application) | 데이터(Data) | 사용자가 생성한 정보 |
-| **전송 계층**(Transport) | 세그먼트(Segment, TCP) / 데이터그램(Datagram, UDP) | 신뢰성/비연결 전송 단위 |
-| **네트워크 계층**(Network) | 패킷(Packet) | 목적지 주소 포함, 라우팅 단위 |
-| **데이터 링크 계층**(Data Link) | 프레임(Frame) | MAC 주소, 오류 검출 정보 포함 |
-| **물리 계층**(Physical) | 비트(Bit) | 실제 전송 신호 단위 |
+| 계층                            | 데이터 단위                                        | 설명                          |
+| ------------------------------- | -------------------------------------------------- | ----------------------------- |
+| **응용 계층**(Application)      | 데이터(Data)                                       | 사용자가 생성한 정보          |
+| **전송 계층**(Transport)        | 세그먼트(Segment, TCP) / 데이터그램(Datagram, UDP) | 신뢰성/비연결 전송 단위       |
+| **네트워크 계층**(Network)      | 패킷(Packet)                                       | 목적지 주소 포함, 라우팅 단위 |
+| **데이터 링크 계층**(Data Link) | 프레임(Frame)                                      | MAC 주소, 오류 검출 정보 포함 |
+| **물리 계층**(Physical)         | 비트(Bit)                                          | 실제 전송 신호 단위           |
 
 <br>
 
@@ -36,7 +36,7 @@
 물리 계층 → 비트(Bit) 전송
 ```
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit04/image1.png" width="100%">
 
 <br><br>
 
@@ -56,8 +56,7 @@
 응용 계층 → 데이터(Data) 복원
 ```
 
-<img src="image2.png" width="100%">
-
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit04/image2.png" width="100%">
 
 <br><br>
 

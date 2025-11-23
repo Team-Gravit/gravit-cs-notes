@@ -38,7 +38,7 @@
 
 **인프라스트럭처 방식(Infrastructure Mode)**
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit13/image1.png" width="100%">
 
 - 무선 단말들이 **기지국(AP)** 또는 **액세스 포인트**를 통해 네트워크에 접속함
 - 모든 데이터 통신은 **AP**나 기지국을 경유함
@@ -49,7 +49,7 @@
 
 **애드혹 방식(Ad-hoc Mode)**
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit13/image2.png" width="100%">
 
 - 기지국 없이 무선 단말들이 **서로 직접(Peer-to-Peer)** 연결되어 통신함
 - 네트워크는 필요할 때마다 임시로 형성됨
@@ -60,12 +60,12 @@
 
 ### 4. 무선 네트워크 종류
 
-| 구분 | 통신 범위 | 특징 / 예시 |
-| --- | --- | --- |
-| **WPAN**(Wireless Personal Area Network) | 수 m | 개인 기기 간 연결, Bluetooth, ZigBee |
-| **WLAN**(Wireless Local Area Network) | 수십~수백 m | 가정·사무실 AP 기반 Wi-Fi(IEEE 802.11) |
-| **WMAN**(Wireless Metropolitan Area Network) | 수 km | 도시권 네트워크, WiMAX |
-| **WWAN**(Wireless Wide Area Network) | 수십~수백 km | 셀룰러 기반 이동통신, LTE, 5G |
+| 구분                                         | 통신 범위    | 특징 / 예시                            |
+| -------------------------------------------- | ------------ | -------------------------------------- |
+| **WPAN**(Wireless Personal Area Network)     | 수 m         | 개인 기기 간 연결, Bluetooth, ZigBee   |
+| **WLAN**(Wireless Local Area Network)        | 수십~수백 m  | 가정·사무실 AP 기반 Wi-Fi(IEEE 802.11) |
+| **WMAN**(Wireless Metropolitan Area Network) | 수 km        | 도시권 네트워크, WiMAX                 |
+| **WWAN**(Wireless Wide Area Network)         | 수십~수백 km | 셀룰러 기반 이동통신, LTE, 5G          |
 
 <br>
 
@@ -85,14 +85,14 @@
 
 **주요 표준**
 
-| 표준 | 주파수 대역 | 최대 속도 | 특징 |
-| --- | --- | --- | --- |
-| **802.11b** | 2.4GHz | 11Mbps | 초기 표준, 간섭에 취약 |
-| **802.11a** | 5GHz | 54Mbps | 고속 전송, 전파 도달거리 짧음 |
-| **802.11g** | 2.4GHz | 54Mbps | b와 호환, 속도 향상 |
-| **802.11n** | 2.4/5GHz | 600Mbps | MIMO 다중 안테나 기술 도입 |
-| **802.11ac**(Wi-Fi 5) | 5GHz | 1Gbps 이상 | 고속 전송, 대용량 스트리밍 적합 |
-| **802.11ax**(Wi-Fi 6) | 2.4/5GHz | 10Gbps 근접 | OFDMA·MU-MIMO, 다수 단말 최적화 |
+| 표준                  | 주파수 대역 | 최대 속도   | 특징                            |
+| --------------------- | ----------- | ----------- | ------------------------------- |
+| **802.11b**           | 2.4GHz      | 11Mbps      | 초기 표준, 간섭에 취약          |
+| **802.11a**           | 5GHz        | 54Mbps      | 고속 전송, 전파 도달거리 짧음   |
+| **802.11g**           | 2.4GHz      | 54Mbps      | b와 호환, 속도 향상             |
+| **802.11n**           | 2.4/5GHz    | 600Mbps     | MIMO 다중 안테나 기술 도입      |
+| **802.11ac**(Wi-Fi 5) | 5GHz        | 1Gbps 이상  | 고속 전송, 대용량 스트리밍 적합 |
+| **802.11ax**(Wi-Fi 6) | 2.4/5GHz    | 10Gbps 근접 | OFDMA·MU-MIMO, 다수 단말 최적화 |
 
 <br>
 
@@ -111,7 +111,7 @@
 
 **Hidden Node 문제**
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit13/image3.png" width="100%">
 
 무선 환경에서 **A와 C가 서로의 탐지 범위 밖**에 있지만 **B와는 통신 가능**한 경우, A와 C는 서로의 존재를 모르므로 충돌이 발생할 수 있다.
 
@@ -119,7 +119,7 @@
 
 **RTS/CTS 방식으로 문제 보완**
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit13/image4.png" width="100%">
 
 1. **채널 감지 + DIFS 대기**: 송신 노드가 채널이 조용한지 확인하고 **DIFS** 시간만큼 대기
 2. **RTS 전송**: **RTS** 프레임으로 채널 사용 기간을 알림
@@ -146,9 +146,9 @@
 - **TKIP**(Temporal Key Integrity Protocol): WEP 개선 방식
 - **CCMP**(Counter Mode with CBC-MAC Protocol): AES 블록 암호화 사용
 - **WPA/WPA2/WPA3**(Wi-Fi Protected Access):
-    - **WPA**: TKIP 기반
-    - **WPA2**: AES/CCMP 기반
-    - **WPA3**: 최신 표준, SAE 인증 및 GCMP-256 암호화
+  - **WPA**: TKIP 기반
+  - **WPA2**: AES/CCMP 기반
+  - **WPA3**: 최신 표준, SAE 인증 및 GCMP-256 암호화
 
 <br>
 
@@ -220,20 +220,20 @@
 
 ### 3. 이동 통신 구조
 
-| 구분 | 구성 요소 | 설명 |
-| --- | --- | --- |
-| **무선 구간** | 단말기, 기지국 | 무선 주파수로 신호 송수신 |
-| **제어 구간** | 기지국 제어기 | 무선 자원 관리, 핸드오프, 인증 |
+| 구분          | 구성 요소               | 설명                                              |
+| ------------- | ----------------------- | ------------------------------------------------- |
+| **무선 구간** | 단말기, 기지국          | 무선 주파수로 신호 송수신                         |
+| **제어 구간** | 기지국 제어기           | 무선 자원 관리, 핸드오프, 인증                    |
 | **코어 구간** | MSC, SGSN, GGSN, EPC 등 | 전체 통신 제어, 데이터 라우팅, 외부 네트워크 연결 |
 
 <br>
 
 ### 4. 이동 통신 세대별 발전
 
-| 세대 | 주요 기술 | 특징 |
-| --- | --- | --- |
-| **1G** | 아날로그 음성 | 음성 전용, 보안 취약 |
-| **2G** | GSM, CDMA | 디지털 음성, SMS |
-| **3G** | WCDMA, HSPA | 음성+데이터 통합, 인터넷 접속 |
-| **4G(LTE)** | OFDMA | All-IP 기반, 고속 데이터 통신 |
-| **5G** | mmWave, Massive MIMO | 초고속·초저지연·초연결, IoT 대응 |
+| 세대        | 주요 기술            | 특징                             |
+| ----------- | -------------------- | -------------------------------- |
+| **1G**      | 아날로그 음성        | 음성 전용, 보안 취약             |
+| **2G**      | GSM, CDMA            | 디지털 음성, SMS                 |
+| **3G**      | WCDMA, HSPA          | 음성+데이터 통합, 인터넷 접속    |
+| **4G(LTE)** | OFDMA                | All-IP 기반, 고속 데이터 통신    |
+| **5G**      | mmWave, Massive MIMO | 초고속·초저지연·초연결, IoT 대응 |

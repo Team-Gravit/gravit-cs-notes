@@ -24,7 +24,7 @@
 
 **단일 케이블**에 모든 노드가 연결되어 데이터가 **한 방향으로 순차적**으로 전달되는 네트워크 구조이다.
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit02/image1.png" width="100%">
 
 <br>
 
@@ -46,7 +46,7 @@
 
 모든 노드가 **중앙 허브 또는 스위치**에 직접 연결되어 중앙 장치를 통해 데이터가 송수신되는 구조이다.
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit02/image2.png" width="100%">
 
 <br>
 
@@ -68,7 +68,7 @@
 
 노드가 **순환 구조**로 연결되어 데이터가 **한 방향**으로 흐르는 구조이다.
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit02/image3.png" width="100%">
 
 <br>
 
@@ -91,7 +91,7 @@
 
 각 노드가 **다른 모든 노드와 직접 연결**되어 **여러 경로**로 데이터를 전송할 수 있는 구조이다.
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit02/image4.png" width="100%">
 
 <br>
 
@@ -113,7 +113,7 @@
 
 **계층 구조**로 노드가 연결되어 **상위 노드에서 하위 노드**로 데이터가 분기되는 구조이다.
 
-<img src="image5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/network/unit02/image5.png" width="100%">
 
 <br>
 
@@ -151,14 +151,14 @@
 
 ### 9. 토폴리지 비교
 
-| **토폴리지** | **비용** | **확장성** | **장애 영향** | **관리 난이도** |
-| --- | --- | --- | --- | --- |
-| **버스형** | 낮음 | 보통 | 전체 | 쉬움 |
-| **스타형** | 높음 | 쉬움 | 부분 | 보통 |
-| **링형** | 보통 | 어려움 | 전체 | 보통 |
-| **메시형** | 매우 높음 | 보통 | 거의 없음 | 어려움 |
-| **트리형** | 보통 | 쉬움 | 부분 | 보통 |
-| **하이브리드형** | 높음 | 매우 쉬움 | 부분 | 어려움 |
+| **토폴리지**     | **비용**  | **확장성** | **장애 영향** | **관리 난이도** |
+| ---------------- | --------- | ---------- | ------------- | --------------- |
+| **버스형**       | 낮음      | 보통       | 전체          | 쉬움            |
+| **스타형**       | 높음      | 쉬움       | 부분          | 보통            |
+| **링형**         | 보통      | 어려움     | 전체          | 보통            |
+| **메시형**       | 매우 높음 | 보통       | 거의 없음     | 어려움          |
+| **트리형**       | 보통      | 쉬움       | 부분          | 보통            |
+| **하이브리드형** | 높음      | 매우 쉬움  | 부분          | 어려움          |
 
 <br>
 
