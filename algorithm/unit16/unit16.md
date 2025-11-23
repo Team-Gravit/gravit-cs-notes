@@ -2,7 +2,7 @@
 
 **신장 트리** 중에서 간선들의 **가중치 합이 최소**인 트리. 네트워크의 모든 정점을 **최소 비용**으로 연결한다.
 
-<img src="image1.png" width="75%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit16/image1.png" width="75%">
 
 <br>
 
@@ -48,7 +48,7 @@
 
 **동작 과정**
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit16/image2.png" width="100%">
 
 1. 시작 정점만 **MST 집합**에 포함
 2. MST 집합에 **인접한 정점들** 중 **최소 간선**으로 연결된 정점 선택
@@ -71,7 +71,7 @@
 
 **동작 과정**
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit16/image3.png" width="100%">
 
 1. 간선들을 **가중치 오름차순**으로 정렬
 2. 정렬된 순서대로 **사이클을 형성하지 않는 간선** 선택
@@ -145,9 +145,9 @@ Union(1, 4), Union(2, 3) 수행 후
 
 ### 8. Prim vs Kruskal 비교
 
-| **구분** | **Prim** | **Kruskal** |
-| --- | --- | --- |
-| **선택 기준** | 정점 | 간선 |
-| **확장 방식** | 이전 트리 확장 | 간선 독립 선택 |
-| **필요 연산** | 우선순위 큐 | Union-Find |
-| **시간 복잡도** | O(E log V) | O(E log E) |
+| **구분**        | **Prim**       | **Kruskal**    |
+| --------------- | -------------- | -------------- |
+| **선택 기준**   | 정점           | 간선           |
+| **확장 방식**   | 이전 트리 확장 | 간선 독립 선택 |
+| **필요 연산**   | 우선순위 큐    | Union-Find     |
+| **시간 복잡도** | O(E log V)     | O(E log E)     |

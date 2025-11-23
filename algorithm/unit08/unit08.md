@@ -41,7 +41,7 @@
 
 배열을 절반씩 나누어 크기가 1이 될 때까지 분할한다.
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit08/image1.png" width="100%">
 
 <br>
 
@@ -49,7 +49,7 @@
 
 크기 1인 정렬된 배열들을 합병하여 크기 2인 정렬된 배열로 만든다.
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit08/image2.png" width="100%">
 
 <br>
 
@@ -57,7 +57,7 @@
 
 크기 2인 정렬된 배열들을 합병하여 크기 4인 정렬된 배열로 만든다.
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit08/image3.png" width="100%">
 
 <br>
 
@@ -65,7 +65,7 @@
 
 크기 4인 정렬된 배열들을 합병하여 최종 정렬된 배열을 완성한다.
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit08/image4.png" width="100%">
 
 <br>
 
@@ -79,7 +79,7 @@ def merge(arr, left, mid, right):
     i = left  # 왼쪽 부분 배열의 인덱스
     j = mid + 1  # 오른쪽 부분 배열의 인덱스
     k = left  # 결과 배열의 인덱스
-    
+
     # 두 부분 배열을 비교하며 합병
     while i <= mid and j <= right:
         if arr[i] <= arr[j]:
@@ -89,19 +89,19 @@ def merge(arr, left, mid, right):
             sorted_arr[k] = arr[j]
             j += 1
         k += 1
-    
+
     # 왼쪽 배열에 남은 요소 복사
     while i <= mid:
         sorted_arr[k] = arr[i]
         i += 1
         k += 1
-    
+
     # 오른쪽 배열에 남은 요소 복사
     while j <= right:
         sorted_arr[k] = arr[j]
         j += 1
         k += 1
-    
+
     # 정렬된 배열을 원본 배열에 복사
     for l in range(left, right + 1):
         arr[l] = sorted_arr[l]
@@ -110,10 +110,10 @@ def merge_sort(arr, left, right):
 
     if left < right:
         mid = (left + right) // 2  # 분할 (Divide)
-        
+
         merge_sort(arr, left, mid)  # 왼쪽 절반 정렬
         merge_sort(arr, mid + 1, right)  # 오른쪽 절반 정렬
-        
+
         # 결합 (Combine)
         merge(arr, left, mid, right)  # 두 부분 배열 합병
 ```
@@ -122,11 +122,11 @@ def merge_sort(arr, left, right):
 
 ### 5. 시간 복잡도
 
-| **케이스** | **시간 복잡도** | **설명** |
-| --- | --- | --- |
-| **최선(Best)** | O(n log n) | 이미 정렬된 경우에도 분할/합병 수행 |
-| **평균(Average)** | O(n log n) | 일반적인 경우 |
-| **최악(Worst)** | O(n log n) | 역순으로 정렬된 경우도 동일 |
+| **케이스**        | **시간 복잡도** | **설명**                            |
+| ----------------- | --------------- | ----------------------------------- |
+| **최선(Best)**    | O(n log n)      | 이미 정렬된 경우에도 분할/합병 수행 |
+| **평균(Average)** | O(n log n)      | 일반적인 경우                       |
+| **최악(Worst)**   | O(n log n)      | 역순으로 정렬된 경우도 동일         |
 
 <br>
 
@@ -179,13 +179,13 @@ def merge_sort(arr, left, right):
 
 ### 8. 다른 정렬 알고리즘과 비교
 
-| **정렬 알고리즘** | **최선** | **평균** | **최악** | **안정성** | **공간** |
-| --- | --- | --- | --- | --- | --- |
-| **합병 정렬** | **O(n log n)** | **O(n log n)** | **O(n log n)** | **✓** | **O(n)** |
-| **퀵 정렬** | O(n log n) | O(n log n) | O(n²) | ✗ | O(log n) |
-| **힙 정렬** | O(n log n) | O(n log n) | O(n log n) | ✗ | O(1) |
-| **삽입 정렬** | O(n) | O(n²) | O(n²) | ✓ | O(1) |
-| **버블 정렬** | O(n²) | O(n²) | O(n²) | ✓ | O(1) |
+| **정렬 알고리즘** | **최선**       | **평균**       | **최악**       | **안정성** | **공간** |
+| ----------------- | -------------- | -------------- | -------------- | ---------- | -------- |
+| **합병 정렬**     | **O(n log n)** | **O(n log n)** | **O(n log n)** | **✓**      | **O(n)** |
+| **퀵 정렬**       | O(n log n)     | O(n log n)     | O(n²)          | ✗          | O(log n) |
+| **힙 정렬**       | O(n log n)     | O(n log n)     | O(n log n)     | ✗          | O(1)     |
+| **삽입 정렬**     | O(n)           | O(n²)          | O(n²)          | ✓          | O(1)     |
+| **버블 정렬**     | O(n²)          | O(n²)          | O(n²)          | ✓          | O(1)     |
 
 <br>
 

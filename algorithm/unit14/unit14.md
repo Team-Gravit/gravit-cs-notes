@@ -103,14 +103,14 @@
 여러 회의가 **시작 시간**과 **종료 시간**을 가지며, 하나의 회의실에서는 동시에 두 개 이상의 회의가 진행될 수 없다. 모든 회의를 배치하기 위해 필요한 **회의실의 최소 개수**를 구하라.
 
 | 회의 | 시작 시간 | 종료 시간 |
-| --- | --- | --- |
-| T1 | 0 | 2 |
-| T2 | 1 | 6 |
-| T3 | 1 | 5 |
-| T4 | 3 | 7 |
-| T5 | 5 | 9 |
-| T6 | 6 | 8 |
-| T7 | 7 | 8 |
+| ---- | --------- | --------- |
+| T1   | 0         | 2         |
+| T2   | 1         | 6         |
+| T3   | 1         | 5         |
+| T4   | 3         | 7         |
+| T5   | 5         | 9         |
+| T6   | 6         | 8         |
+| T7   | 7         | 8         |
 
 <br>
 
@@ -126,19 +126,19 @@
 
 1. **시작시간이 가장 빠른 T1 먼저 선택 후 회의실 1을 배정한다.**
 
-    <img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit14/image1.png" width="100%">
 
 <br>
 
 2. **다음으로 시작 시간이 빠른 T2 선택 후 회의실 자리를 확인하고 없으면 추가해서 작업을 넣는다.**
 
-    <img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit14/image2.png" width="100%">
 
 <br>
 
 3. **이를 반복하면 다음과 같은 결과를 얻을 수 있다.**
 
-    <img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit14/image3.png" width="100%">
 
 <br>
 

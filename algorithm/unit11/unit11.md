@@ -43,7 +43,7 @@
 
 ### 3. 동작 예시
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image1.png" width="100%">
 
 <br>
 
@@ -53,11 +53,11 @@
 
 1의 자리를 기준으로, 각 원소의 1의 자리에 해당하는 Queue에 원소를 삽입한다.
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image2.png" width="100%">
 
 그 다음 0번 버킷부터 순서대로 수집하여 원래의 배열에 넣어준다.
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image3.png" width="100%">
 
 <br>
 
@@ -67,11 +67,11 @@
 
 10의 자리에 대하여 같은 작업을 반복한다.
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image4.png" width="100%">
 
 마찬가지로 0번 Queue부터 차례대로 다시 원소를 가지고 온다.
 
-<img src="image5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image5.png" width="100%">
 
 <br>
 
@@ -81,11 +81,11 @@
 
 앞에서와 동일한 방식으로 100의 자리 기준 분배를 진행한다.
 
-<img src="image6.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image6.png" width="100%">
 
 그런 다음 0번 Queue부터 수집을 하면 최종적으로 정렬이 완료된다.
 
-<img src="image7.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit11/image7.png" width="100%">
 
 <br>
 
@@ -113,18 +113,18 @@
 
 **버킷 구현 방식**
 
-| **방식** | **설명** | **특징** |
-| --- | --- | --- |
-| **큐** | FIFO 구조로 순서 유지 | 구현 직관적 |
+| **방식**      | **설명**                  | **특징**                 |
+| ------------- | ------------------------- | ------------------------ |
+| **큐**        | FIFO 구조로 순서 유지     | 구현 직관적              |
 | **계수 정렬** | 카운팅 배열 + 누적합 사용 | 메모리 효율적, 속도 빠름 |
 
 <br>
 
 ### 5. 시간 복잡도
 
-| **경우** | **시간 복잡도** |
-| --- | --- |
-| **최선/평균/최악** | O(d × (n + b)) |
+| **경우**           | **시간 복잡도** |
+| ------------------ | --------------- |
+| **최선/평균/최악** | O(d × (n + b))  |
 
 **시간 복잡도 분석**
 
@@ -192,11 +192,11 @@
 
 ### 10. 다른 정렬 알고리즘과 비교
 
-| **특징** | **기수 정렬** | **퀵 정렬** | **병합 정렬** | **힙 정렬** |
-| --- | --- | --- | --- | --- |
-| **시간 복잡도** | O(d × n) | O(n log n) | O(n log n) | O(n log n) |
-| **공간 복잡도** | O(n + b) | O(log n) | O(n) | O(1) |
-| **안정성** | 안정 | 불안정 | 안정 | 불안정 |
-| **비교 연산** | 없음 | 있음 | 있음 | 있음 |
-| **적용 범위** | 정수, 문자열 | 모든 비교 가능 데이터 | 모든 비교 가능 데이터 | 모든 비교 가능 데이터 |
-| **자릿수 영향** | 크게 받음 | 받지 않음 | 받지 않음 | 받지 않음 |
+| **특징**        | **기수 정렬** | **퀵 정렬**           | **병합 정렬**         | **힙 정렬**           |
+| --------------- | ------------- | --------------------- | --------------------- | --------------------- |
+| **시간 복잡도** | O(d × n)      | O(n log n)            | O(n log n)            | O(n log n)            |
+| **공간 복잡도** | O(n + b)      | O(log n)              | O(n)                  | O(1)                  |
+| **안정성**      | 안정          | 불안정                | 안정                  | 불안정                |
+| **비교 연산**   | 없음          | 있음                  | 있음                  | 있음                  |
+| **적용 범위**   | 정수, 문자열  | 모든 비교 가능 데이터 | 모든 비교 가능 데이터 | 모든 비교 가능 데이터 |
+| **자릿수 영향** | 크게 받음     | 받지 않음             | 받지 않음             | 받지 않음             |

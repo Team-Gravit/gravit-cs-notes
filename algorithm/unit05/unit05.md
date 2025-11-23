@@ -28,7 +28,7 @@ N개의 원소가 있을 때, 버블 정렬은 다음과 같이 작동한다.
 
 인접한 두 원소를 차례대로 비교하여 큰 값을 뒤로 보낸다. 가장 큰 값 64가 맨 뒤로 이동한다.
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit05/image1.png" width="100%">
 
 <br>
 
@@ -36,7 +36,7 @@ N개의 원소가 있을 때, 버블 정렬은 다음과 같이 작동한다.
 
 다시 처음부터 인접한 원소를 비교한다. 두 번째로 큰 값 25가 뒤에서 두 번째 위치로 이동한다.
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit05/image2.png" width="100%">
 
 <br>
 
@@ -44,7 +44,7 @@ N개의 원소가 있을 때, 버블 정렬은 다음과 같이 작동한다.
 
 세 번째로 큰 값 22가 올바른 위치로 이동한다.
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit05/image3.png" width="100%">
 
 <br>
 
@@ -52,17 +52,17 @@ N개의 원소가 있을 때, 버블 정렬은 다음과 같이 작동한다.
 
 마지막 비교를 수행한다.
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit05/image4.png" width="100%">
 
 <br>
 
 ### 5. 시간 복잡도
 
-| **케이스** | **시간 복잡도** | **설명** |
-| --- | --- | --- |
-| **최선(Best)** | O(n²) | 이미 정렬된 경우에도 모든 비교 수행 |
-| **평균(Average)** | O(n²) | 일반적인 경우 |
-| **최악(Worst)** | O(n²) | 역순으로 정렬된 경우 |
+| **케이스**        | **시간 복잡도** | **설명**                            |
+| ----------------- | --------------- | ----------------------------------- |
+| **최선(Best)**    | O(n²)           | 이미 정렬된 경우에도 모든 비교 수행 |
+| **평균(Average)** | O(n²)           | 일반적인 경우                       |
+| **최악(Worst)**   | O(n²)           | 역순으로 정렬된 경우                |
 
 <br>
 
@@ -97,13 +97,13 @@ N개의 원소가 있을 때, 버블 정렬은 다음과 같이 작동한다.
 
 ### 7. 다른 정렬 알고리즘과 비교
 
-| **정렬 알고리즘** | **최선** | **평균** | **최악** | **안정성** |
-| --- | --- | --- | --- | --- |
-| **버블 정렬** | O(n²) | O(n²) | O(n²) | ✓ |
-| **선택 정렬** | O(n²) | O(n²) | O(n²) | ✗ |
-| **삽입 정렬** | O(n) | O(n²) | O(n²) | ✓ |
-| **퀵 정렬** | O(n log n) | O(n log n) | O(n²) | ✗ |
-| **병합 정렬** | O(n log n) | O(n log n) | O(n log n) | ✓ |
+| **정렬 알고리즘** | **최선**   | **평균**   | **최악**   | **안정성** |
+| ----------------- | ---------- | ---------- | ---------- | ---------- |
+| **버블 정렬**     | O(n²)      | O(n²)      | O(n²)      | ✓          |
+| **선택 정렬**     | O(n²)      | O(n²)      | O(n²)      | ✗          |
+| **삽입 정렬**     | O(n)       | O(n²)      | O(n²)      | ✓          |
+| **퀵 정렬**       | O(n log n) | O(n log n) | O(n²)      | ✗          |
+| **병합 정렬**     | O(n log n) | O(n log n) | O(n log n) | ✓          |
 
 <br>
 

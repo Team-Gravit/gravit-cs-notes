@@ -39,17 +39,17 @@
 ### 3. DP 문제 접근 단계
 
 1. **상태 정의**: `dp[i]`가 무엇인지 정의함
-    - 예시: `dp[i] = i번째 피보나치 수`
+   - 예시: `dp[i] = i번째 피보나치 수`
 
 <br>
 
 2. **점화식 세우기**: 상태 전이 관계를 정의함
-    - 예시: `dp[i] = dp[i-1] + dp[i-2]`
+   - 예시: `dp[i] = dp[i-1] + dp[i-2]`
 
 <br>
 
 3. **초기값 설정**: Base Case를 설정함
-    - 예시: `dp[0] = 0, dp[1] = 1`
+   - 예시: `dp[0] = 0, dp[1] = 1`
 
 <br>
 
@@ -148,7 +148,7 @@ C[j] = min(C[j-1] + 1, C[j-5] + 1, C[j-16] + 1)
 
 <br>
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit15/image1.png" width="100%">
 
 <br>
 
@@ -176,4 +176,4 @@ C[j] = min(C[j-1] + 1, C[j-5] + 1, C[j-16] + 1)
 
 <br>
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit15/image2.png" width="100%">

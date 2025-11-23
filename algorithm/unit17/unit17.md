@@ -26,11 +26,11 @@
 
 **동작 과정**
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image1.png" width="100%">
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image2.png" width="100%">
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image3.png" width="100%">
 
 1. 시작 정점의 거리를 **0**으로, 나머지는 **무한대**로 초기화
 2. **방문하지 않은 정점** 중 **최단 거리**가 가장 짧은 정점 선택
@@ -68,9 +68,9 @@
 
 **동작 과정**
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image4.png" width="100%">
 
-<img src="image5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image5.png" width="100%">
 
 1. 시작 정점의 거리를 **0**으로, 나머지는 **무한대**로 초기화
 2. 모든 간선을 확인하여 더 짧은 경로 발견 시 거리 갱신
@@ -108,11 +108,11 @@
 
 **동작 과정**
 
-<img src="image6.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image6.png" width="100%">
 
-<img src="image7.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image7.png" width="100%">
 
-<img src="image8.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit17/image8.png" width="100%">
 
 1. 각 정점 간 거리를 **인접 행렬**로 표현
 2. 자신에게 가는 거리는 **0**, 직접 연결되지 않은 쌍은 **무한대**로 초기화
@@ -132,11 +132,11 @@
 
 ### 4. 알고리즘 비교
 
-| **알고리즘** | **적용 범위** | **가중치 조건** | **음수 사이클 감지** | **시간 복잡도** |
-| --- | --- | --- | --- | --- |
-| **다익스트라** | 단일 시작점 | 양수만 | 불가 | O((V + E) log V) |
-| **벨만-포드** | 단일 시작점 | 양수/음수 | 가능 | O(V × E) |
-| **플로이드-워셜** | 모든 쌍 | 양수/음수 | 불가 | O(V³) |
+| **알고리즘**      | **적용 범위** | **가중치 조건** | **음수 사이클 감지** | **시간 복잡도**  |
+| ----------------- | ------------- | --------------- | -------------------- | ---------------- |
+| **다익스트라**    | 단일 시작점   | 양수만          | 불가                 | O((V + E) log V) |
+| **벨만-포드**     | 단일 시작점   | 양수/음수       | 가능                 | O(V × E)         |
+| **플로이드-워셜** | 모든 쌍       | 양수/음수       | 불가                 | O(V³)            |
 
 <br>
 

@@ -44,7 +44,7 @@
 
 > 규칙: 아래 행렬에서 3개의 숫자를 선택해야 한다. 단, 선택한 숫자들의 행과 열은 중복되면 안 된다.
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit04/image1.png" width="100%">
 
 행과 열이 중복되지 않는 원소 3개를 선택하려면, **모든 행과 열에 선택된 원소가 하나씩 존재**해야 한다.
 
@@ -54,7 +54,7 @@
 
 **원소 1을 고르는 경우**
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit04/image2.png" width="100%">
 
 원소 1을 선택한 경우의 상태 공간 트리이다. 첫 번째 행에서 1을 선택하면, 두 번째 행에서는 첫 번째 열을 제외한 5와 8만 선택 가능하다.
 
@@ -62,7 +62,7 @@
 
 **원소 2를 고르는 경우**
 
-<img src="image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit04/image3.png" width="100%">
 
 원소 2를 선택한 경우의 상태 공간 트리이다. 첫 번째 행에서 2를 선택하면, 두 번째 행에서는 두 번째 열을 제외한 4와 6만 선택 가능하다.
 
@@ -70,7 +70,7 @@
 
 **원소 3을 고르는 경우**
 
-<img src="image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit04/image4.png" width="100%">
 
 원소 3을 선택한 경우의 상태 공간 트리이다. 첫 번째 행에서 3을 선택하면, 두 번째 행에서는 세 번째 열을 제외한 4와 5만 선택 가능하다.
 
@@ -98,12 +98,12 @@
 
 ### 7. DFS와 백트래킹 비교
 
-| **특징** | **DFS** | **백트래킹** |
-| --- | --- | --- |
+| **특징**      | **DFS**        | **백트래킹**                |
+| ------------- | -------------- | --------------------------- |
 | **탐색 방식** | 모든 경로 탐색 | 조건을 만족하는 경로만 탐색 |
-| **가지치기** | 없음 | 유망하지 않은 노드 제거 |
-| **효율성** | 낮음 | 상대적으로 높음 |
-| **사용 목적** | 그래프 탐색 | 조건 만족 문제 해결 |
+| **가지치기**  | 없음           | 유망하지 않은 노드 제거     |
+| **효율성**    | 낮음           | 상대적으로 높음             |
+| **사용 목적** | 그래프 탐색    | 조건 만족 문제 해결         |
 
 <br>
 

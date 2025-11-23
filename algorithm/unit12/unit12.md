@@ -36,7 +36,7 @@
 
 <br>
 
-<img src="image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit12/image1.png" width="100%">
 
 <br>
 
@@ -50,7 +50,7 @@
 
 ### 4. 정렬 예시
 
-<img src="image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/algorithm/unit12/image2.png" width="100%">
 
 <br>
 
@@ -189,10 +189,10 @@ def topological_sort_dfs(graph, n):
 
 ### 7. 시간 복잡도
 
-| **방법** | **시간 복잡도** | **공간 복잡도** |
-| --- | --- | --- |
-| **BFS 방식** | O(V + E) | O(V) |
-| **DFS 방식** | O(V + E) | O(V) |
+| **방법**     | **시간 복잡도** | **공간 복잡도** |
+| ------------ | --------------- | --------------- |
+| **BFS 방식** | O(V + E)        | O(V)            |
+| **DFS 방식** | O(V + E)        | O(V)            |
 
 **시간 복잡도 분석**
 
@@ -249,6 +249,7 @@ def has_cycle(graph, n):
 <br>
 
 ### 10. 위상 정렬의 장점
+
 - **선형 시간 복잡도** O(V + E)로 효율적
 - **의존성 해결**: 선후 관계가 있는 작업 순서 결정
 - **사이클 탐지** 가능
