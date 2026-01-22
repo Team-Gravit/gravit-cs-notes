@@ -8,7 +8,7 @@
 
 운영체제(Operating System, OS)는 컴퓨터 하드웨어와 응용 프로그램 사이에서 **중재자** 역할을 하는 시스템 소프트웨어이다.
 
-<img width="810" height="737" alt="image" src="https://github.com/user-attachments/assets/3a84b4d3-9c00-44eb-8250-51c02caaa70f" />
+<img src="https://github.com/user-attachments/assets/3a84b4d3-9c00-44eb-8250-51c02caaa70f" alt="image" width="100%" />
 
 
 <br>
@@ -97,7 +97,7 @@
 
 운영체제의 모든 서비스가 커널 내부에 포함된 구조
 
-<img width="2162" height="1491" alt="Frame 1171275951 (2)" src="https://github.com/user-attachments/assets/b1482d07-3788-4ed3-bc73-63fda66d185a" />
+<img src="https://github.com/user-attachments/assets/b1482d07-3788-4ed3-bc73-63fda66d185a" alt="Frame 1171275951 (2)" width="100%" />
 
 
 - **장점**: 커널 내부 구성 요소 간 효율적인 상호작용
@@ -110,7 +110,7 @@
 
 최소한의 기능만 커널에 포함하고 나머지는 사용자 공간으로 분리한 구조
 
-<img width="2162" height="1478" alt="Frame 1171275949" src="https://github.com/user-attachments/assets/73722cf3-739d-4694-aad1-ba8af1b192a7" />
+<img src="https://github.com/user-attachments/assets/73722cf3-739d-4694-aad1-ba8af1b192a7" alt="Frame 1171275949" width="100%" />
 
 
 - **장점**: 확장성과 안정성이 높음, 유지보수 용이
@@ -143,7 +143,7 @@
 
 ### **모드 전환 과정**
 
-<img width="1247" height="705" alt="Frame 1171275948" src="https://github.com/user-attachments/assets/5065cd7d-a63d-4694-aa88-322dc03fa113" />
+<img src="https://github.com/user-attachments/assets/5065cd7d-a63d-4694-aa88-322dc03fa113" alt="Frame 1171275948" width="100%" />
 
 
 > 💡 모드 비트: 현재 동작 모드를 나타내는 하드웨어 비트 (0: 커널 모드, 1: 사용자 모드)
@@ -264,7 +264,7 @@
 
 ### 10. 운영체제와 컴퓨터 시스템 구조
 
-<img width="2379" height="1563" alt="Frame 1171275950" src="https://github.com/user-attachments/assets/e0cba9c8-1019-4a1b-a09d-b5081609c0c5" />
+<img src="https://github.com/user-attachments/assets/e0cba9c8-1019-4a1b-a09d-b5081609c0c5" alt="Frame 1171275950" width="100%" />
 
 
 <br>

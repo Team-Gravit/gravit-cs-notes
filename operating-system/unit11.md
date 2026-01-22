@@ -51,7 +51,7 @@
     - 외부 단편화 해결
     - 프로세스의 마지막 페이지가 페이지 크기보다 작을 경우 남은 공간이 낭비되어 **내부 단편화 발생 가능**
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit11/image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit11/image1.png" width="100%">
         
 - **주소 변환 과정**
     1. CPU가 논리 주소 생성(페이지 번호 + 오프셋)
@@ -108,4 +108,4 @@ CPU가 논리 주소를 생성하면 TLB에서 해당 페이지 번호를 검색
 - 내부 단편화 해결
 - 서로 다른 크기의 세그먼트의 할당&해제가 반복되면 공간들이 조각으로 나누어져 외부 단편화 발생 가능
     
-    <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit11/image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit11/image2.png" width="100%">

@@ -8,7 +8,7 @@
 
 - **프로그램(Program)**은 디스크에 저장된 실행 가능한 파일로, 수동적(Passive)인 존재이다. 반면 **프로세스(Process)**는 메모리에 적재되어 실행 중인 프로그램으로, 능동적(Active)인 존재이다.
 
-<img width="2318" height="885" alt="Frame 1171275940" src="https://github.com/user-attachments/assets/c48bd1ee-2643-4598-89cd-78d17cd8ed4f" />
+<img src="https://github.com/user-attachments/assets/c48bd1ee-2643-4598-89cd-78d17cd8ed4f" alt="Frame 1171275940" width="100%" />
 
 
 > 💡 하나의 프로그램에서 여러 프로세스가 생성될 수 있다. 예를 들어 Chrome 브라우저를 두 개 실행하면 두 개의 독립적인 프로세스가 생성된다.
@@ -20,7 +20,7 @@
 
 프로세스는 메모리 상에서 네 가지 영역으로 구성된다.
 
-<img width="1217" height="885" alt="Frame 1171275941" src="https://github.com/user-attachments/assets/c2ddcd0b-56d0-4c01-9950-4cebf8ad73b5" />
+<img src="https://github.com/user-attachments/assets/c2ddcd0b-56d0-4c01-9950-4cebf8ad73b5" alt="Frame 1171275941" width="100%" />
 
 
 <br>
@@ -69,7 +69,7 @@
 
 ### **기본 5가지 상태**
 
-<img width="1326" height="636" alt="Frame 1171275943" src="https://github.com/user-attachments/assets/48a4d3c4-ac59-46c2-993e-74fee61ed2b9" />
+<img src="https://github.com/user-attachments/assets/48a4d3c4-ac59-46c2-993e-74fee61ed2b9" alt="Frame 1171275943" width="100%" />
 
 
 <br>
@@ -99,7 +99,7 @@
 
 메모리가 부족할 때 운영체제는 프로세스를 디스크로 **스왑 아웃(Swap out)**하여 메모리 공간을 확보한다.
 
-<img width="1350" height="750" alt="Frame (4)" src="https://github.com/user-attachments/assets/40243641-2340-4163-a893-a5983fd205a2" />
+<img src="https://github.com/user-attachments/assets/40243641-2340-4163-a893-a5983fd205a2" alt="Frame (4)" width="100%" />
 
 
 - **Suspended Ready**: 메모리에서 디스크로 스왑된 Ready 상태
@@ -118,7 +118,7 @@
 
 ### **PCB의 구성 요소**
 
-<img width="576" height="848" alt="Frame 1171275945 (1)" src="https://github.com/user-attachments/assets/23f2e592-4b11-4c75-a251-fb61d177d9d6" />
+<img src="https://github.com/user-attachments/assets/23f2e592-4b11-4c75-a251-fb61d177d9d6" alt="Frame 1171275945 (1)" width="100%" />
 
 
 <br>
@@ -144,7 +144,7 @@
 
 ### **문맥 교환 과정**
 
-<img width="1289" height="623" alt="Frame 1171275946 (2)" src="https://github.com/user-attachments/assets/be151e69-ef99-4b79-8c3e-98edd456d716" />
+<img src="https://github.com/user-attachments/assets/be151e69-ef99-4b79-8c3e-98edd456d716" alt="Frame 1171275946 (2)" width="100%" />
 
 
 <br>
@@ -185,7 +185,7 @@
 
 ### **주요 스케줄링 큐**
 
-<img width="1322" height="860" alt="Frame 1171275947" src="https://github.com/user-attachments/assets/5e71a53a-6885-4432-a30f-d9c2304a7505" />
+<img src="https://github.com/user-attachments/assets/5e71a53a-6885-4432-a30f-d9c2304a7505" alt="Frame 1171275947" width="100%" />
 
 
 **1) Job Queue (작업 큐)**

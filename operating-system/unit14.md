@@ -28,7 +28,7 @@
     - 각각의 파일 이름이 달라야 함
     - 수가 증가하면 관리하기 어려움
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image1.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image1.png" width="100%">
         
 - **2단계 디렉터리**
     - 각 사용자마다 독립적인 디렉터리
@@ -37,26 +37,26 @@
     - UFD는 한 사용자가 소유하는 파일 정보를 가짐, 사용자 파일을 관리
     - 두 파일이 서로 다른 UFD에 속한 경우 동일한 이름 가능
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image2.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image2.png" width="100%">
         
 - **트리 구조 디렉터리**
     - 하나의 루트 디렉터리와 여러 개의 서브 디렉터리로 구성
     - **절대 경로**: 루트부터의 전체 경로 (/home/user/file.txt)
     - **상대 경로**: 현재 디렉토리 기준 (./file.txt, ../parent/file.txt)
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image3.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image3.png" width="100%">
         
 - **비순환 그래프 디렉터리**
     - 디렉터리 간 **공유 허용**
     - 공유된 파일을 삭제하면 현재 파일을 가리키는 포인터는 대상이 없어짐
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image4.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image4.png" width="100%">
         
 - **일반 그래프 디렉터리**
     - **순환을 허용**하는 그래프 구조
     - **가비지 컬렉션**으로 빈 공간을 찾아 정리함
         
-        <img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image5.png" width="100%">
+<img src="https://raw.githubusercontent.com/Team-Gravit/gravit-images/main/operating-system/unit14/image5.png" width="100%">
         
 <br>        
 
