@@ -15,3 +15,6 @@ out/*
 
 # mac
 .DS_Store
+
+# claude code local settings
+.claude/settings.local.json
