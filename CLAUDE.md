@@ -13,15 +13,16 @@ Pure documentation repo — no build tools, linters, or test frameworks.
 
 **Subjects and their current unit status:**
 
-CS 기초 5과목:
+CS 기초 6과목:
 
-| Subject           | Current Last Unit | Next Unit to Create |
-| ----------------- | ----------------- | ------------------- |
-| `algorithm/`      | unit23            | unit24              |
-| `data-structure/` | unit12            | unit13              |
-| `database/`       | unit21            | unit22              |
-| `network/`        | unit22            | unit23              |
-| `web-security/`   | unit13            | unit14              |
+| Subject             | Current Last Unit | Next Unit to Create |
+| ------------------- | ----------------- | ------------------- |
+| `algorithm/`        | unit23            | unit24              |
+| `data-structure/`   | unit12            | unit13              |
+| `database/`         | unit21            | unit22              |
+| `network/`          | unit22            | unit23              |
+| `operating-system/` | unit14            | unit15              |
+| `web-security/`     | unit13            | unit14              |
 
 개편안 신규 챕터 17과목 (2026-09-08 추가, 챕터명 `카테고리 · 챕터` → 디렉터리 `<category>-<chapter>`):
 
@@ -312,6 +313,25 @@ Exclude topics outside CS fundamentals scope:
 | unit20 | 쿠키·세션·토큰                       |
 | unit21 | REST API                             |
 | unit22 | 로드밸런싱·프록시·CDN                |
+
+### operating-system (unit01–14)
+
+| Unit   | Topic                     |
+| ------ | ------------------------- |
+| unit01 | 운영체제 개요             |
+| unit02 | 프로세스 기초             |
+| unit03 | 시스템 콜                 |
+| unit04 | 인터럽트                  |
+| unit05 | 프로세스 관리             |
+| unit06 | 스레드와 멀티스레딩       |
+| unit07 | CPU 스케줄링              |
+| unit08 | 동기화와 병행성           |
+| unit09 | 데드락                    |
+| unit10 | 메모리 관리 기초          |
+| unit11 | 가상 메모리               |
+| unit12 | 페이지 관리               |
+| unit13 | 캐시 메모리               |
+| unit14 | 파일 시스템과 디스크 관리 |
 
 ### web-security (unit01–13)
 
